@@ -31,26 +31,27 @@ export const PROJECTS: Project[] = [
     title: 'SignalFlow AI',
     category: 'Fintech Cognitive Architecture & NLP',
     summary: 'A two-tier cognitive architecture designed to filter financial noise and synthesize high-conviction market research dossiers.',
-    description: 'Designed to solve the bottleneck of financial news overload and costly cloud API consumption. SignalFlow AI uses a local small language model (Strands/Decider 2B) for rapid confidence-aware sentiment classification, filtering neutral chatter locally and routing only high-conviction events to Google Gemini 3.5 for institutional-grade research synthesis.',
-    tags: ['Python', 'Local SLM', 'Gemini API', 'Fintech', 'SQLite', 'Cognitive Architecture'],
+    description: 'Designed to solve the bottleneck of financial news overload and costly cloud API consumption. SignalFlow AI implements a two-tier cognitive architecture: System One uses a local small language model (Strands Decider 2B) running on CPU for confidence-aware sentiment classification in ~968 ms with $0.00 API cost, filtering neutral noise locally. System Two routes high-conviction signals to Google Gemini 3.5 for 8-factor institutional research dossiers with SQLite audit ledgering.',
+    tags: ['Python 3.10+', 'Strands Decider 2B', 'Gemini 3.5', 'google-genai SDK', 'SQLite', 'Pytest'],
     metrics: [
-      { label: 'Local Classification', value: '~950 ms' },
-      { label: 'Cloud Cost Reduction', value: '62.5%' },
-      { label: 'Dossier Factors', value: '8-Factor Depth' }
+      { label: 'Local Classification', value: '968.8 ms (CPU)' },
+      { label: 'Cloud Spend Cut', value: '62.5% Avoided' },
+      { label: 'Noise Filtered Local', value: '50.0% at $0.00' }
     ],
     features: [
-      'Two-tier cognitive routing: Local Strands/Decider 2B pre-filters noise before invoking cloud LLMs',
-      'Confidence-aware sentiment analysis filtering neutral market headlines without expensive API calls',
-      'Google Gemini 3.5 synthesis producing 8-factor institutional research dossiers',
-      'Human-in-the-loop safeguards to inspect intermediate inferences before trade execution',
-      'SQLite immutable audit ledger tracking all model predictions, timestamps, and confidence scores',
-      'Real-time financial intelligence dashboard with live market headlines integration'
+      'System One (Local Edge Gatekeeper): Strands Decider 2B classifies market sentiment into [Bullish, Bearish, Neutral, Noise] in ~968 ms at $0.00 cost',
+      'Confidence-Aware Policy Pattern: Blocks Noise/Neutral locally, escalates items (< 0.80) to persistent Human Review Queue',
+      'System Two (Cloud Deep Research): Google AI Studio Gemini 3.5 synthesizes 8-factor institutional research dossiers',
+      'Immutable SQLite audit ledger tracking all model predictions, timestamps, and confidence scores',
+      'Live market data & stock correlation engine with real-time ticker ribbon, sparklines, and interactive research modals',
+      'Production-tested test suite with 29 passing Pytest test cases validating sentiment parsing and routing rules'
     ],
     architecture: [
-      'Stage 1: News Aggregation & Parsing',
-      'Stage 2: Local 2B SLM Sentiment & Conviction Filter (~950ms)',
-      'Stage 3: Cloud Gemini 3.5 8-Factor Dossier Generator (selective)',
-      'Stage 4: SQLite Audit Ledger & Operator Dashboard'
+      'Stage 1: Multi-Stream Financial News & RSS Ingestion',
+      'Stage 2: System One Strands Decider 2B Local Gatekeeper (~968ms, $0.00)',
+      'Stage 3: Confidence-Aware Escalation & Quarantine Filter',
+      'Stage 4: System Two Google Gemini 3.5 8-Factor Dossier Generator',
+      'Stage 5: SQLite Audit Ledger & Interactive Market Terminal'
     ],
     githubUrl: 'https://github.com/anushragav-vs/SignalFlow-AI',
     featured: true
@@ -59,52 +60,54 @@ export const PROJECTS: Project[] = [
     id: 'ma-crossover-backtester',
     title: 'Moving Average Crossover Backtester',
     category: 'Quantitative Finance & Strategy Simulation',
-    summary: 'A rigorous Python backtesting engine testing a 20/50-day moving average crossover on historical Google stock data against a buy-and-hold benchmark.',
-    description: 'Developed to understand systematic rule-based trading and the genuine trade-offs between absolute return, drawdown, and capital preservation. Emphasizes quantitative honesty: zero look-ahead bias, clean historical data pipelines, and comprehensive risk metrics.',
-    tags: ['Python', 'pandas', 'NumPy', 'yfinance', 'Matplotlib', 'Risk Metrics'],
+    summary: 'A rigorous Python backtesting engine testing moving average crossover trading strategies on Google stock (GOOG) vs Buy & Hold.',
+    description: 'Developed to understand systematic rule-based trading and the genuine trade-offs between absolute return, drawdown, and capital preservation. Emphasizes quantitative honesty: zero look-ahead bias with next-day open execution, clean historical data pipelines via Yahoo Finance, and comprehensive risk analysis.',
+    tags: ['Python', 'pandas', 'NumPy', 'yfinance', 'Matplotlib', 'Risk Analysis'],
     metrics: [
-      { label: 'Strategy CAGR', value: '11.6%' },
-      { label: 'Buy & Hold CAGR', value: '22.3%' },
-      { label: 'Max Drawdown Cut', value: '~10% Lower' }
+      { label: 'V1 Strategy CAGR', value: '12.04%' },
+      { label: 'Buy & Hold CAGR', value: '21.01%' },
+      { label: 'V2 Max Drawdown', value: '-22.04% (vs -44.6%)' }
     ],
-    findings: 'The strategy underperformed buy-and-hold in total return (11.6% vs 22.3% CAGR) but successfully reduced maximum drawdown by ~10 percentage points and mitigated portfolio volatility during extended corrections. Demonstrates the core quantitative trade-off between return maximization and downside capital defense.',
+    findings: 'While Buy & Hold achieved 21.01% CAGR with a severe -44.60% max drawdown, V1 (20/50-day crossover) achieved 12.04% CAGR with -34.12% max drawdown (cutting drawdown by >10 percentage points). V2 (+ 200-day trend filter) delivered 11.32% CAGR and cut max drawdown in half to -22.04%, proving systematic downside capital preservation over return chasing.',
     features: [
-      'Automated historical OHLCV data collection via Yahoo Finance API',
-      'Data cleaning, missing data handling, and corporate split adjustment validation',
-      '20-day / 50-day moving average crossover signal generation with strict next-day open execution (zero look-ahead bias)',
-      'Compound Annual Growth Rate (CAGR) calculations',
-      'Sharpe ratio and Sortino risk-adjusted return evaluation',
+      'Automated historical OHLCV data collection via Yahoo Finance API with split adjustment validation',
+      'Next-day open order simulation ensuring strict elimination of look-ahead bias',
+      'Iterative multi-version quantitative testing: V1 (20/50 SMA crossover) and V2 (+ 200-day trend filter)',
+      'Compound Annual Growth Rate (CAGR) and annualized volatility calculations',
+      'Sharpe ratio risk-adjusted return evaluation across varying market cycles',
       'Maximum Drawdown (MDD) tracking and duration calculation',
-      'Visual comparative equity curve generation with Matplotlib'
+      'Visual comparative equity curve and drawdown plot generation using Matplotlib'
     ],
     githubUrl: 'https://github.com/anushragav-vs/ma-crossover-backtester',
     featured: true
   },
   {
     id: 'touchgrass',
-    title: 'TouchGrass',
-    category: 'Productivity & Digital Wellness',
-    summary: 'A lightweight utility encouraging developers and students to maintain healthy balance between intense coding sessions and real-world wellness.',
-    description: 'Built during early programming explorations to practice clean state management, timed background notifications, and lightweight desktop/web utilities.',
-    tags: ['Python', 'Productivity', 'Automation', 'CLI/GUI'],
+    title: 'TouchGrass 🌱',
+    category: 'Productivity & Open-Source AI',
+    summary: 'AI that helps you put your phone down and go outside — built for the Hacktoberfest Open-Source AI Challenge.',
+    description: 'A local-first Progressive Web App (PWA) powered by open-weight AI (Ollama) and TypeScript, designed to curb screen fatigue and encourage real-world wellness through smart session tracking and non-intrusive notifications.',
+    tags: ['TypeScript', 'React 19', 'Vite', 'Tailwind CSS', 'Ollama', 'PWA'],
     features: [
-      'Smart session tracking with customizable break intervals',
-      'Non-intrusive system notifications',
-      'Lightweight memory footprint'
+      'Local-first Progressive Web App architecture ensuring complete data privacy',
+      'Open-weight local AI integration using Ollama',
+      'Smart session tracking with customizable wellness intervals',
+      'Responsive modern UI crafted with React 19 and Tailwind CSS'
     ],
     githubUrl: 'https://github.com/anushragav-vs/TouchGrass'
   },
   {
     id: 'lingobuddy',
     title: 'LingoBuddy',
-    category: 'Language Learning & Educational Tool',
-    summary: 'An interactive language companion exploring vocabulary retention and conversational prompt structures.',
-    description: 'An exploratory project examining how structured natural language prompts and adaptive flashcard mechanics assist early learners in vocabulary acquisition.',
-    tags: ['Python', 'NLP Basics', 'Educational Tech', 'Algorithms'],
+    category: 'Language Learning & Speech AI',
+    summary: 'Anxiety-free language conversation partner powered by local open-weight AI and the Web Speech API.',
+    description: 'A personalized, zero-judgment foreign language conversation simulator built for the Hacktoberfest Weekend Challenge, running 100% locally with open-weight Ollama and browser Web Speech API for voice interactions.',
+    tags: ['JavaScript', 'Web Speech API', 'Ollama', 'Local AI', 'PWA Ready'],
     features: [
-      'Contextual vocabulary suggestions',
-      'Interactive quiz loops',
-      'Spaced repetition algorithm foundation'
+      'Interactive voice conversation loops using the native Web Speech API',
+      '100% private, local AI generation powered by Ollama',
+      'Adaptive conversational prompts with zero external cloud dependencies',
+      'Zero-build PWA design with immediate browser execution'
     ],
     githubUrl: 'https://github.com/anushragav-vs/LingoBuddy'
   }

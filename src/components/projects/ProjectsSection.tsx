@@ -17,10 +17,10 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
   const filteredProjects = PROJECTS.filter((p) => {
     if (activeFilter === 'All') return true;
     if (activeFilter === 'Fintech & Quant') {
-      return p.tags.includes('Fintech') || p.tags.includes('yfinance') || p.tags.includes('Risk Metrics');
+      return p.category.includes('Fintech') || p.category.includes('Quant') || p.tags.includes('yfinance') || p.tags.includes('Risk Analysis');
     }
     if (activeFilter === 'AI & Tools') {
-      return p.tags.includes('Local SLM') || p.tags.includes('Productivity') || p.tags.includes('NLP Basics');
+      return p.category.includes('AI') || p.category.includes('Productivity') || p.category.includes('Language') || p.tags.includes('Ollama');
     }
     return true;
   });
