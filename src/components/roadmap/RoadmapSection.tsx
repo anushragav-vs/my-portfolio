@@ -68,8 +68,8 @@ export const RoadmapSection: React.FC<RoadmapSectionProps> = ({ onSelectProject 
         </h2>
 
         <p className="text-base sm:text-lg text-content-secondary max-w-2xl mx-auto">
-          From processing distributed data on MTurk and trading currency markets to studying AI/ML and
-          engineering quantitative tools.
+          From processing distributed data on MTurk and trading currency markets to studying AI/ML,
+          participating in GCI World, and engineering quantitative tools.
         </p>
 
         {/* Dynamic milestone indicator bar */}
@@ -101,6 +101,7 @@ export const RoadmapSection: React.FC<RoadmapSectionProps> = ({ onSelectProject 
               key={milestone.id}
               milestone={milestone}
               index={idx}
+              totalCount={MILESTONES.length}
               isActive={idx === activeMilestoneIndex}
               isPast={idx < activeMilestoneIndex}
               onSelectProject={onSelectProject}

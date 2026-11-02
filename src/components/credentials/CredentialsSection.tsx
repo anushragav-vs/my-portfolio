@@ -19,7 +19,7 @@ export const CredentialsSection: React.FC = () => {
             <div className="p-7 rounded-3xl glass-card border border-aqua-electric/25 shadow-glow-sm space-y-5">
               <div className="space-y-1">
                 <span className="text-xs font-mono uppercase tracking-wider text-aqua-electric">
-                  Undergraduate Degree
+                  Currently Pursuing — Undergraduate Degree
                 </span>
                 <h4 className="text-xl font-bold text-content-primary">
                   {PERSONAL_INFO.college}
@@ -41,7 +41,7 @@ export const CredentialsSection: React.FC = () => {
               </div>
 
               <p className="text-xs sm:text-sm text-content-secondary leading-relaxed">
-                Specialized coursework focusing on machine learning algorithms, probabilistic models,
+                Currently pursuing this degree program, focusing on machine learning algorithms, probabilistic models,
                 linear algebra, data structures, and computer science foundations.
               </p>
             </div>

@@ -1,5 +1,5 @@
 # Anush Ragav V S — Personal Portfolio
-> First-year B.E. Computer Science & Engineering (AI/ML) student exploring how mathematics, machine learning, and data can unlock insights into financial markets.
+> Currently pursuing B.E. Computer Science and Engineering (Artificial Intelligence & Machine Learning) — B.E. CSE (AI/ML) at K. S. Rangasamy College of Technology, exploring how mathematics, machine learning, and data can unlock insights into financial markets.
 
 [![AWS Amplify](https://img.shields.io/badge/Deploy-AWS_Amplify-FF9900?logo=aws-amplify&logoColor=white)](https://aws.amazon.com/amplify/)
 [![React](https://img.shields.io/badge/React-19.x-61DAFB?logo=react&logoColor=black)](https://react.dev/)
@@ -30,10 +30,11 @@ The experience is centered around two signature interactive concepts:
 - **Authentic Milestones:**
   - `01 (2019)`: Amazon Mechanical Turk — Part-time Data Processor (~4 years data validation & image classification).
   - `02 (2022)`: Independent Forex Trader & Market Research (~4 years price action & risk management).
-  - `03 (August 2026)`: K. S. Rangasamy College of Technology — B.E. CSE (AI/ML) (2026 – 2030).
-  - `04 (2026)`: Python, NumPy, pandas, Matplotlib, Git & Statistical foundations.
+  - `03 (August 2026 — 2030)`: K. S. Rangasamy College of Technology — Currently Pursuing B.E. Computer Science and Engineering (Artificial Intelligence & Machine Learning) — B.E. CSE (AI/ML).
+  - `04 (2026)`: Building with Python & Data — Self-Directed Learning · Strengthening Technical Foundations.
   - `05 (Present)`: Moving Average Crossover Backtester & SignalFlow AI.
-  - `06 (The Future)`: Quantitative Intelligence — "Where mathematics meets machine intelligence."
+  - `06 (2026)`: Advancing Through Data Science & AI — Currently Selected — GCI World 2026 September.
+  - `07 (The Future)`: Quantitative Intelligence — "Where mathematics meets machine intelligence."
 
 ### 2. Signature "Neural Constellation" & Superpower Reveal
 - **Central AR Core:** Features authentic GitHub portrait and luminous neon accents.
@@ -193,7 +194,7 @@ This repository includes a pre-configured `amplify.yml` build specification tail
 ## 👤 Author
 
 **Anush Ragav V S**  
-*First-year B.E. Computer Science & Engineering (AI/ML)*  
+*Currently pursuing B.E. Computer Science and Engineering (Artificial Intelligence & Machine Learning) — B.E. CSE (AI/ML)*  
 *K. S. Rangasamy College of Technology, Tamil Nadu, India*  
 
 - **Email:** [anushragav.dev@outlook.com](mailto:anushragav.dev@outlook.com)

@@ -43,7 +43,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onNotify }) => {
               Have an interesting problem? Let's explore it.
             </h2>
             <p className="text-base sm:text-lg text-content-secondary leading-relaxed">
-              Whether you're exploring quantitative finance backtesting, small language model orchestration,
+              Always open to learning, exploring new technologies, and collaborating on meaningful projects with curious and driven people.
+            </p>
+            <p className="text-xs sm:text-sm text-content-muted leading-relaxed">
+              Whether you're exploring quantitative finance backtesting, data science, machine learning,
               or collaborative open-source projects, my inbox is open.
             </p>
           </div>

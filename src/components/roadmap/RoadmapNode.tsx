@@ -11,6 +11,7 @@ import {
 interface RoadmapNodeProps {
   milestone: Milestone;
   index: number;
+  totalCount?: number;
   isActive: boolean;
   isPast: boolean;
   onSelectProject?: (project: Project) => void;
@@ -19,6 +20,7 @@ interface RoadmapNodeProps {
 export const RoadmapNode: React.FC<RoadmapNodeProps> = ({
   milestone,
   index,
+  totalCount = 7,
   isActive,
   isPast,
   onSelectProject,
@@ -200,7 +202,7 @@ export const RoadmapNode: React.FC<RoadmapNodeProps> = ({
             {/* Visual preview or metadata side-callout */}
             <div className="p-6 rounded-2xl border border-aqua-electric/10 bg-dark-secondary/30 backdrop-blur-sm max-w-sm mx-auto space-y-2">
               <span className="text-[10px] font-mono uppercase tracking-widest text-content-muted block">
-                Journey Stage {milestone.number} of 06
+                Journey Stage {milestone.number} of {String(totalCount).padStart(2, '0')}
               </span>
               <p className="text-sm font-medium text-aqua-sky">
                 {milestone.period} • {milestone.title}

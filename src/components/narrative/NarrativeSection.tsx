@@ -43,6 +43,13 @@ export const NarrativeSection: React.FC = () => {
                 between return and drawdown, test hypotheses thoroughly, and document every finding.
               </div>
             </div>
+
+            <div className="p-4 rounded-xl glass-card border border-aqua-electric/25 flex items-center gap-3">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 shrink-0 animate-pulse" />
+              <p className="text-xs sm:text-sm text-content-primary italic">
+                "{PERSONAL_INFO.collaborationMessage}"
+              </p>
+            </div>
           </div>
 
           {/* Quick Interdisciplinary Pillars */}

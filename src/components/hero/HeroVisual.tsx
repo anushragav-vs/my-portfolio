@@ -97,10 +97,10 @@ export const HeroVisual: React.FC = () => {
             <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between px-3 py-1.5 rounded-xl bg-dark-primary/80 backdrop-blur-md border border-aqua-electric/25">
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                <span className="text-[11px] font-mono text-content-primary">B.E. AI/ML</span>
+                <span className="text-[11px] font-mono text-content-primary">B.E. CSE (AI/ML)</span>
               </div>
               <span className="text-[10px] font-mono text-aqua-electric tracking-wide">
-                2026 – 2030
+                Currently Pursuing
               </span>
             </div>
           </div>

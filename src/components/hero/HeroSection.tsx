@@ -54,7 +54,7 @@ export const HeroSection: React.FC = () => {
                 </span>
               </h1>
               <div className="flex flex-wrap items-center gap-3 text-sm sm:text-base font-mono text-aqua-sky">
-                <span>AI/ML Student</span>
+                <span>B.E. CSE (AI/ML) Student</span>
                 <span className="text-content-muted">|</span>
                 <span>Python & Data</span>
                 <span className="text-content-muted">|</span>
@@ -74,7 +74,7 @@ export const HeroSection: React.FC = () => {
             {/* Supporting Authentic Description */}
             <p className="text-base sm:text-lg text-content-secondary max-w-2xl leading-relaxed">
               {PERSONAL_INFO.bio} Combining four years of independent forex trading and data annotation
-              experience with formal AI/ML education at{' '}
+              experience with formal technical education at{' '}
               <span className="text-content-primary font-medium">{PERSONAL_INFO.college}</span>.
             </p>
 
@@ -90,6 +90,11 @@ export const HeroSection: React.FC = () => {
                 <span className="text-emerald-300">Open to Collaboration</span>
               </div>
             </div>
+
+            {/* Approachable Collaboration Statement */}
+            <p className="text-xs sm:text-sm font-sans text-content-secondary/90 italic border-l-2 border-aqua-electric/40 pl-3 max-w-2xl">
+              "{PERSONAL_INFO.collaborationMessage}"
+            </p>
 
             {/* Call to Actions (Buttons) */}
             <div className="pt-2 flex flex-wrap items-center gap-3 sm:gap-4">

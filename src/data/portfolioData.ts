@@ -7,16 +7,17 @@ export const PERSONAL_INFO = {
   role: 'AI/ML Student & Quantitative Finance Explorer',
   tagline: 'Building at the intersection of AI, Data & Quantitative Finance.',
   altTagline: 'Learning. Building. Exploring.',
-  bio: 'First-year AI/ML student exploring how mathematics, machine learning, and data can unlock insights into financial markets.',
+  bio: 'Currently pursuing B.E. Computer Science and Engineering (Artificial Intelligence & Machine Learning) — B.E. CSE (AI/ML) at K. S. Rangasamy College of Technology, exploring how mathematics, machine learning, and data can unlock insights into financial markets.',
+  collaborationMessage: 'Always open to learning, exploring new technologies, and collaborating on meaningful projects with curious and driven people.',
   narrativeLead: "Curiosity became a direction.",
   narrativeBody: [
     "Before starting my engineering degree, I spent approximately four years analyzing currency price movements as an independent forex trader, alongside four years of data processing and image classification through Amazon Mechanical Turk.",
     "These early experiences taught me two fundamental realities: the messiness of real-world data and the probabilistic nature of financial markets. I realized intuition alone wasn't enough—I needed rigorous mathematics, computation, and machine learning to build systematic understanding.",
-    "Now, as a first-year AI/ML student at K. S. Rangasamy College of Technology, I am uniting these threads: studying algorithms, writing Python, modeling risk, and turning financial curiosity into transparent code."
+    "Now, as a student currently pursuing B.E. Computer Science and Engineering (Artificial Intelligence & Machine Learning) — B.E. CSE (AI/ML) at K. S. Rangasamy College of Technology, I am uniting these threads: studying algorithms, writing Python, modeling risk, and turning financial curiosity into transparent code."
   ],
   college: 'K. S. Rangasamy College of Technology',
-  degree: 'B.E. Computer Science and Engineering (AI/ML)',
-  duration: 'August 2026 – 2030',
+  degree: 'B.E. Computer Science and Engineering (Artificial Intelligence & Machine Learning) — B.E. CSE (AI/ML)',
+  duration: 'August 2026 – 2030 (Currently Pursuing)',
   location: 'Tamil Nadu, India',
   email: 'anushragav.dev@outlook.com',
   githubUrl: 'https://github.com/anushragav-vs',
@@ -150,33 +151,34 @@ export const MILESTONES: Milestone[] = [
     period: 'August 2026 — 2030',
     title: 'Beginning My AI/ML Journey',
     organization: 'K. S. Rangasamy College of Technology',
-    role: 'B.E. Computer Science and Engineering (AI/ML)',
-    narrative: 'Moving from independent curiosity toward structured technical knowledge.',
+    role: 'Currently Pursuing B.E. Computer Science and Engineering (Artificial Intelligence & Machine Learning) — B.E. CSE (AI/ML)',
+    narrative: 'Moving from independent curiosity toward structured technical knowledge in an active undergraduate engineering program.',
     activities: [
-      'Embarking on formal undergraduate technical education in Artificial Intelligence and Machine Learning',
+      'Currently pursuing undergraduate degree in Computer Science and Engineering (Artificial Intelligence & Machine Learning)',
       'Building strong computer science foundations in algorithms, data structures, and architecture',
       'Studying higher mathematics, linear algebra, multivariable calculus, and probability theory',
       'Collaborating with peers and mentors on algorithmic problem solving'
     ],
     skills: ['Data Structures', 'Algorithms', 'Linear Algebra', 'Computer Science Fundamentals'],
-    badgeText: 'Undergraduate Degree'
+    badgeText: 'Currently Pursuing Degree'
   },
   {
     id: 'milestone-4',
     number: '04',
     period: '2026',
     title: 'Building with Python & Data',
-    organization: 'Self-Directed Technical Engineering',
-    role: 'Foundational Builder',
-    narrative: 'Turning ideas into experiments, code, and measurable results.',
+    organization: 'Self-Directed Learning · Strengthening Technical Foundations',
+    role: 'Foundational Learner & Builder',
+    narrative: 'Strengthening technical foundations through self-directed learning, experiments, code, and measurable progress.',
     activities: [
-      'Deepened Python development for computational science and financial modeling',
-      'Mastered core scientific data stack: NumPy matrix operations, pandas dataframes, Matplotlib plotting',
-      'Implemented clean version control workflows using Git and GitHub',
-      'Began implementing machine learning fundamentals and exploratory data analysis'
+      'Strengthening Python development for computational science and financial modeling.',
+      'Building practical familiarity with NumPy matrix operations, pandas dataframes, and Matplotlib visualization.',
+      'Practicing Git and GitHub version control workflows.',
+      'Exploring machine learning fundamentals and introductory data analysis.',
+      'Improving mathematical reasoning, statistical understanding, and problem-solving.'
     ],
     skills: ['Python', 'NumPy', 'pandas', 'Matplotlib', 'Git', 'Statistical Analysis'],
-    badgeText: 'Scientific Data Stack'
+    badgeText: 'Strengthening Foundations'
   },
   {
     id: 'milestone-5',
@@ -190,7 +192,7 @@ export const MILESTONES: Milestone[] = [
       'Engineered Moving Average Crossover Strategy Backtester with 0 look-ahead bias and drawdown analysis',
       'Architected SignalFlow AI: 2-tier cognitive NLP architecture pairing local 2B SLM with Gemini 3.5',
       'Published verified open-source repositories documenting real findings, trade-offs, and metrics',
-      'Engineering systematic tools and exploring interdisciplinary tech superpowers'
+      'Continuously learning, building, and exploring one project at a time'
     ],
     skills: ['Backtesting', 'NLP Systems', 'Cognitive Routing', 'Risk Metrics', 'API Integration'],
     badgeText: 'Active Projects',
@@ -199,6 +201,24 @@ export const MILESTONES: Milestone[] = [
   {
     id: 'milestone-6',
     number: '06',
+    period: '2026',
+    title: 'Advancing Through Data Science & AI',
+    organization: 'Currently Selected — GCI World 2026 September',
+    role: 'GCI World Participant & AI/Data Explorer',
+    narrative: 'Selected for GCI World 2026 September. Continuing to strengthen my foundations in AI, data science, and computational thinking while exploring new opportunities to apply technology to real-world problems.',
+    activities: [
+      'Currently participating in the GCI World 2026 September program.',
+      'Strengthening Python programming and computational problem-solving.',
+      'Deepening my understanding of scientific data analysis using NumPy, pandas, and Matplotlib.',
+      'Exploring machine learning fundamentals and data-driven approaches.',
+      'Continuing to develop mathematical, analytical, and technical foundations.'
+    ],
+    skills: ['Python', 'NumPy', 'pandas', 'Matplotlib', 'Machine Learning', 'Data Science'],
+    badgeText: 'GCI World 2026'
+  },
+  {
+    id: 'milestone-7',
+    number: '07',
     period: 'The Future',
     title: 'Quantitative Intelligence',
     organization: 'Future Aspirations',
