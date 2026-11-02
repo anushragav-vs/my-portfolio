@@ -69,7 +69,7 @@ export const SuperpowerModal: React.FC<SuperpowerModalProps> = ({ isOpen, onClos
         {/* Header Tag */}
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-dark-elevated/80 border border-aqua-electric/30 text-xs font-mono text-aqua-electric mb-6">
           <Sparkles className="w-3.5 h-3.5 animate-spin-slow" />
-          <span>AWS Student Builder Challenge • Tech Superpower</span>
+          <span>Neural Constellation • Tech Superpower</span>
         </div>
 
         {/* Step Progression */}

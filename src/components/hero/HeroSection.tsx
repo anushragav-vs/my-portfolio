@@ -45,16 +45,6 @@ export const HeroSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Narrative & Typography */}
           <div className="lg:col-span-7 flex flex-col space-y-6 text-left">
-            {/* Context Pill */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-pill border border-aqua-electric/25 w-fit shadow-glow-sm">
-              <span className="w-2 h-2 rounded-full bg-aqua-electric animate-ping" />
-              <span className="text-xs font-mono font-medium text-aqua-electric uppercase tracking-wider">
-                AWS Student Builder Challenge
-              </span>
-              <span className="text-content-muted">•</span>
-              <span className="text-xs font-mono text-content-secondary">2026</span>
-            </div>
-
             {/* Name & Academic Identity */}
             <div className="space-y-2">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-content-primary leading-[1.1]">

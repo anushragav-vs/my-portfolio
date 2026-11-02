@@ -1,6 +1,6 @@
 import React from 'react';
 import { PERSONAL_INFO } from '../../data/portfolioData';
-import { ArrowUp, ShieldCheck } from 'lucide-react';
+import { ArrowUp } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './BrandIcons';
 
 export const Footer: React.FC = () => {
@@ -25,12 +25,6 @@ export const Footer: React.FC = () => {
                 “{PERSONAL_INFO.altTagline}”
               </div>
             </div>
-          </div>
-
-          {/* AWS Challenge Badge */}
-          <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-dark-elevated border border-aqua-electric/25 text-xs font-mono text-content-secondary">
-            <ShieldCheck className="w-4 h-4 text-aqua-electric" />
-            <span>AWS Student Builder Challenge: Build Your Tech Superpower</span>
           </div>
 
           {/* Back to top button */}

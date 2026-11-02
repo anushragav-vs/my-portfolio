@@ -1,5 +1,4 @@
 # Anush Ragav V S — Personal Portfolio
-> **AWS Student Builder Challenge: "Build Your Tech Superpower"**  
 > First-year B.E. Computer Science & Engineering (AI/ML) student exploring how mathematics, machine learning, and data can unlock insights into financial markets.
 
 [![AWS Amplify](https://img.shields.io/badge/Deploy-AWS_Amplify-FF9900?logo=aws-amplify&logoColor=white)](https://aws.amazon.com/amplify/)
@@ -13,7 +12,7 @@
 
 ## 🌟 Overview
 
-This web application is an immersive digital story designed and built for the **AWS Student Builder Challenge: "Build Your Tech Superpower."** Rather than a conventional static CV, it presents an authentic journey combining four years of independent currency trading curiosity and distributed data annotation experience with formal computer science education at **K. S. Rangasamy College of Technology**.
+This web application is an immersive digital story presenting an authentic personal portfolio. Rather than a conventional static CV, it presents an authentic journey combining four years of independent currency trading curiosity and distributed data annotation experience with formal computer science education at **K. S. Rangasamy College of Technology**.
 
 The experience is centered around two signature interactive concepts:
 1. **The Scroll-Driven Vertical Roadmap:** An animated SVG timeline that progressively draws itself as visitors scroll through real milestones—from early data processing on Amazon Mechanical Turk to algorithmic backtesting and small language model cognitive architecture.

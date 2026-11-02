@@ -21,7 +21,7 @@ export const PERSONAL_INFO = {
   email: 'anushragav.dev@outlook.com',
   githubUrl: 'https://github.com/anushragav-vs',
   linkedinUrl: 'https://www.linkedin.com/in/anushragavvs',
-  avatarUrl: 'https://github.com/anushragav-vs.png',
+  avatarUrl: '/hero-portrait.jpg',
 };
 
 export const PROJECTS: Project[] = [
@@ -190,7 +190,7 @@ export const MILESTONES: Milestone[] = [
       'Engineered Moving Average Crossover Strategy Backtester with 0 look-ahead bias and drawdown analysis',
       'Architected SignalFlow AI: 2-tier cognitive NLP architecture pairing local 2B SLM with Gemini 3.5',
       'Published verified open-source repositories documenting real findings, trade-offs, and metrics',
-      'Participated in the AWS Student Builder Challenge: "Build Your Tech Superpower"'
+      'Engineering systematic tools and exploring interdisciplinary tech superpowers'
     ],
     skills: ['Backtesting', 'NLP Systems', 'Cognitive Routing', 'Risk Metrics', 'API Integration'],
     badgeText: 'Active Projects',

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X, ArrowUpRight, ShieldCheck } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Menu, X, ArrowUpRight } from 'lucide-react';
 import { useScrollSpy } from '../../hooks/useScrollSpy';
 
 interface NavItem {
@@ -112,12 +112,8 @@ export const Navigation: React.FC = () => {
           })}
         </div>
 
-        {/* AWS Challenge Badge & Action */}
-        <div className="hidden lg:flex items-center gap-3">
-          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-dark-elevated/80 border border-aqua-electric/20 text-[11px] font-mono text-content-secondary">
-            <ShieldCheck className="w-3.5 h-3.5 text-aqua-electric" />
-            <span>AWS Student Builder</span>
-          </div>
+        {/* Action */}
+        <div className="hidden lg:flex items-center">
           <a
             href="#contact"
             onClick={(e) => handleNavClick(e, '#contact')}
@@ -166,10 +162,6 @@ export const Navigation: React.FC = () => {
           </div>
 
           <div className="pt-2 border-t border-aqua-electric/15 flex flex-col gap-3">
-            <div className="flex items-center gap-2 text-xs font-mono text-content-secondary">
-              <ShieldCheck className="w-4 h-4 text-aqua-electric" />
-              <span>AWS Student Builder Challenge 2026</span>
-            </div>
             <a
               href="#contact"
               onClick={(e) => handleNavClick(e, '#contact')}
