@@ -44,14 +44,14 @@ The experience is centered around two signature interactive concepts:
 
 ### 3. Quantitative Projects & Deep Case Studies
 - **Moving Average Crossover Strategy Backtester:**
-  - Tested on historical Google stock data against a buy-and-hold benchmark.
-  - Zero look-ahead bias with next-day open order simulation.
-  - Transparent trade-off: **11.6% CAGR vs 22.3% buy-and-hold CAGR**, reducing maximum drawdown by ~10% and significantly lowering volatility.
+  - Tested on historical Google stock data (GOOG) vs Buy & Hold benchmark with zero look-ahead bias.
+  - V1 (20/50 SMA crossover): **12.04% CAGR** with **-34.12% max drawdown** (reducing drawdown by >10% vs -44.60% Buy & Hold).
+  - V2 (+ 200-day trend filter): **11.32% CAGR** with **-22.04% max drawdown** (cutting drawdown in half to preserve downside capital).
 - **SignalFlow AI:**
-  - Two-tier fintech cognitive architecture pairing a local 2B SLM (Strands/Decider) with cloud Gemini 3.5.
-  - ~950 ms local sentiment classification filtering neutral noise locally.
-  - **62.5% cloud API cost reduction** and 8-factor institutional research dossiers.
-- **Public GitHub Repositories:** Live API integration with graceful static fallback for TouchGrass, LingoBuddy, and future repositories.
+  - Two-tier fintech cognitive architecture pairing a local 2B SLM (Strands Decider 2B) with cloud Gemini 3.5.
+  - Confidence-aware routing with ~968.8 ms local sentiment classification at $0.00 cost.
+  - **62.5% cloud API spend avoided**, **50% locally filtered**, and **29 passing Pytest test cases**.
+- **Public GitHub Repositories:** Live API integration with graceful static fallback for TouchGrass 🌱 (Hacktoberfest Open-Source AI Challenge, React 19 + Ollama PWA), LingoBuddy (Speech AI, Web Speech API + Ollama), and coding-solutions (LeetCode/DSA algorithms).
 
 ### 4. Transparent Skills Grid & Verified Credentials
 - **No Fabricated Percentage Bars:** Clear categorization by actual stage: *Used in Projects*, *Practically Explored*, and *Currently Learning*.
