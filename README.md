@@ -197,6 +197,7 @@ This repository includes a pre-configured `amplify.yml` build specification tail
 *Currently pursuing B.E. Computer Science and Engineering (Artificial Intelligence & Machine Learning) — B.E. CSE (AI/ML)*  
 *K. S. Rangasamy College of Technology, Tamil Nadu, India*  
 
-- **Email:** [anushragav.dev@outlook.com](mailto:anushragav.dev@outlook.com)
-- **GitHub:** [https://github.com/anushragav-vs](https://github.com/anushragav-vs)
-- **LinkedIn:** [https://www.linkedin.com/in/anushragavvs](https://www.linkedin.com/in/anushragavvs)
+- **Email:** [Daft A Message](mailto:anushragav.dev@outlook.com)
+- **GitHub:** [Explore My Works](https://github.com/anushragav-vs)
+- **LinkedIn:** [Connect With Me](https://www.linkedin.com/in/anushragavvs)
+- **My Portfolio** [View My Journey](https://main.d1ubsrtqdn4aew.amplifyapp.com/)
